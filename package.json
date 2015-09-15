@@ -1,0 +1,23 @@
+{
+  "name": "quickParameterHandling",
+  "version": "1.0.0",
+  "description": "A javascript extention to the arguments prototype to inculde defaults and type checking in a cleaner faster manner",
+  "main": "agrsFilter.js",
+  "dependencies": {
+    "jasmine": "^2.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThornWinters/quickParameterHandling.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThornWinters/quickParameterHandling/issues"
+  },
+  "homepage": "https://github.com/ThornWinters/quickParameterHandling"
+}

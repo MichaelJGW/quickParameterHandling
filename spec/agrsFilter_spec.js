@@ -13,12 +13,3 @@ describe('Change Directly', function(){
 })
 
 
-
-	console.log('----end----');
-	console.log('a = ', a);
-	console.log('b = ', boo);
-	console.log('-----------');
-}
-
-boo(1,34);
-

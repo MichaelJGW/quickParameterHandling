@@ -138,4 +138,11 @@ the types for arguments is number and string
 so we have all the info we need right here.
 
 
+if undefined then X
+if type is not X then X
+if value is not [X or Y or Z] then X
+if overloaded then X
+
+arguments.defaults(3,5,6).types(3,,6).values([1,2,3],,[3,3]);
+
 

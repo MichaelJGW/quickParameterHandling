@@ -1,12 +1,12 @@
 {
-  "name": "quickParameterHandling",
+  "name": "args-filter",
   "version": "1.0.0",
   "description": "A javascript extention to the arguments prototype to inculde defaults and type checking in a cleaner faster manner",
-  "main": "agrsFilter.js",
-  "dependencies": {
+  "main": "argsFilter.js",
+  "dependencies": {},
+  "devDependencies": {
     "jasmine": "^2.3.2"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

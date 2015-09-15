@@ -1,7 +1,27 @@
 
-NPM PACKAGE : args-filter
+--NPM PACKAGE--
 
-Issue : Needing to verify the parameters in javascript functions in an effective and clean manner.
+args-filter
+
+        npm install --save args-filter
+
+--Usage--
+
+        var foo = function(num){
+        	arguments.defaults(1); //checks if num is undefined if it is assign the default of 1
+        	return num + 1;
+        }
+        var bar = function(num){
+        	arguments.types(1); //checks value and type if either fail assign the default of 1
+        	return num + 1;
+        }
+        foo()   //would be 2
+        foo('') //would be '1'
+        bar()   //would be 2
+        bar('') //would be 2
+
+--Issue Being Solved--
+Needing to verify the parameters in javascript functions in an effective, clean, and scalable manner.
 
 Lets say we have the following function.
 

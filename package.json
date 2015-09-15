@@ -1,6 +1,6 @@
 {
   "name": "args-filter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A javascript extention to the arguments prototype to inculde defaults and type checking in a cleaner faster manner",
   "main": "argsFilter.js",
   "dependencies": {},

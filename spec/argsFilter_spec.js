@@ -43,14 +43,14 @@ describe('Types', function(){
 	it("Arrays", function(){
 		var args = [];
 		var test = function(){
-			arguments.types([]);
+			arguments.types([],[]);
 			for(var num = 0; num < arguments.length; num++){
 				args.push(arguments[num]);
 			}
 		}
 		//all type match so it should be the same
-		test([1,2,3]);
-		expect(args).toEqual([[1,2,3]]);
+		test([1,2,3],{0:1,1:2,2:3});
+		expect(args).toEqual([[1,2,3],[]]);
 	});
 	it("Objects", function(){
 		var args = [];

@@ -21,6 +21,7 @@ args-filter
         bar('') //would be 2
 
 --Issue Being Solved--
+
 Needing to verify the parameters in javascript functions in an effective, clean, and scalable manner.
 
 Lets say we have the following function.

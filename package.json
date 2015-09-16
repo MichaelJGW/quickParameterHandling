@@ -1,8 +1,8 @@
 {
   "name": "args-filter",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A javascript extention to the arguments prototype to inculde defaults and type checking in a cleaner faster manner",
-  "main": "argsFilter.js",
+  "main": "lib/argsFilter.js",
   "dependencies": {},
   "devDependencies": {
     "jasmine": "^2.3.2"
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "https://github.com/ThornWinters/quickParameterHandling.git"
   },
-  "author": "",
+  "author": "Michael Warner <MichaelJWarner@outlook.com> [https://github.com/ThornWinters/quickParameterHandling]",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ThornWinters/quickParameterHandling/issues"

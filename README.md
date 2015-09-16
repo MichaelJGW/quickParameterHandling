@@ -31,6 +31,7 @@ Lets say we have the following function.
         }
 
 
+
 We are assuming that num is a number, and currently we have no default values and no type checking so this will totally work foo({}) or foo(foo) or foo('anything') or even foo() and undefined / 3 is an error.
 This is a simple version of this but it shows the issue.
 
@@ -62,6 +63,7 @@ method 3
         	return num / 3;
         }
 
+
 Do this methods scale well
 
         var foo = function(num, str, arr, obj, func){
@@ -86,6 +88,7 @@ Do this methods scale well
         	return boo
         }
 
+
 This take a good chunk of code just to verify types and set defaults.
 What if we did the same code but this way
 
@@ -93,6 +96,7 @@ What if we did the same code but this way
         	arguments.types(1,'',[],{},function(){});
         	return arguments.toArray();
         }
+
 
 what if we didn't care about types we just wanted defaults just in case they were undefined.
 
